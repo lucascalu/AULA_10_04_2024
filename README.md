@@ -136,3 +136,69 @@ HTML para apresentar os dados na página
   LINK PARA DOWNLOAD CONVERSOR HTML PARA JAVASCRIPT
   https://wtools.io/html-to-javascript-converter
 </pre>
+
+<pre>
+
+  Nome do Projeto: AT-S02-03C IMC com JavaScript
+
+Objetivo: Desenvolver um programa em JavaScript que calcula o Índice de Massa Corporal (IMC) com base no peso e altura digitados pelo usuário, que simula o "acender um um LED indicativo" de acordo com a classificação do IMC, porém utilizando imagens em HTML.
+
+Descrição: O programa deve solicitar ao usuário que digite seu peso (em kg) e altura (em metros). Em seguida, calcular o IMC utilizando a fórmula IMC = peso / (altura * altura). Com base no resultado do cálculo, o programa deve acender um LED específico para cada classificação de IMC, conforme a seguinte tabela:
+IMC < 18,5: LED verde (baixo peso)
+18,5 <= IMC < 25: LED amarelo (peso normal)
+25 <= IMC < 30: LED laranja (sobrepeso)
+IMC >= 30: LED vermelho (obesidade)
+Componentes Necessários:
+- Imagens de LEDs (para simular LEDS das cores verde, amarelo, laranja, vermelho)
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Software Visual Studio Code;
+
+Funcionamento:
+1. Solicitar ao usuário que digite seu peso e altura.
+2. Calcular o IMC com base nos valores digitados.
+3. Simular o "Acender  do LED" correspondente à classificação do IMC.
+4. Repetir o processo sempre que o usuário desejar realizar um novo cálculo. O site deverá perguntar se o usuário deseja ou não.
+
+Considerações Adicionais:- Garantir que o programa valide os dados de entrada, evitando valores negativos ou inválidos.
+- Utilizar comentários no código para facilitar o entendimento do funcionamento de cada parte.
+- Utilizar uma função para o cálculo do IMC e outra para o controle dos LEDs, facilitando a manutenção e expansão do programa.
+
+Critérios de avaliação:
+(C) O aluno demonstrou compreensão dos tipos de variáveis necessárias para armazenar dados como peso, altura e IMC no programa.
+
+(C) O aluno aplicou corretamente os operadores aritméticos (+, -, *, /) para realizar o cálculo do IMC a partir dos dados de entrada.
+
+(C) O aluno demonstrou habilidade em utilizar operadores de atribuição para atualizar os valores das variáveis envolvidas no cálculo do IMC.
+
+(C) O aluno demonstrou compreensão da fórmula matemática do IMC e sua aplicação no contexto do programa.
+
+(C) O aluno aplicou corretamente os operadores aritméticos para realizar o cálculo do IMC a partir dos dados de entrada.
+
+(C) O aluno utilizou operadores de comparação (>, <, >=, <=) para avaliar as condições de classificação do IMC e exibiu as imagens em HTML simulando o "acender dos LEDs" correspondentes.
+
+(D) O aluno utilizou loops de entrada para permitir que o usuário insira múltiplos conjuntos de dados para cálculo do IMC.
+
+(D) O aluno utilizou estruturas condicionais aninhadas para lidar com diferentes faixas de classificação do IMC.
+
+(D) O aluno empregou corretamente operadores lógicos (&&, ||) para combinar múltiplas condições de classificação do IMC.
+
+(D)O aluno utilizou variáveis auxiliares para armazenar resultados intermediários durante o cálculo do IMC.
+
+(D) O aluno implementou uma estrutura de repetição para permitir o cálculo do IMC para múltiplos conjuntos de dados.
+</pre>
