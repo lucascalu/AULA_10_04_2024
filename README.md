@@ -131,3 +131,8 @@ sexo.
 (D) O aluno utilizou formatação em textos
 HTML para apresentar os dados na página
 </pre>
+
+<pre>
+  LINK PARA DOWNLOAD CONVERSOR HTML PARA JAVASCRIPT
+  https://wtools.io/html-to-javascript-converter
+</pre>
