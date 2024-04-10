@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+document.write("<h1>CLASSIFICAÇÃO DE IDADE E GENERO<h1>")
+$idade = prompt("digite sua idade")
+$sexo = prompt("digite seu sexo")
+
+if ($idade < 18)
+{
+    if($sexo=="masculino"){
+        document.write("menino")
+    }
+
+    if($sexo=="feminino"){
+        document.write("menina")
+    }
+    else{
+        document.write("escreva masculino ou feminino")
+    }
+}
+else{
+
+    if($sexo=="masculino"){
+        document.write("homem")
+    }
+
+    if($sexo=="feminino"){
+        document.write("mulher")
+    }
+    else{
+        document.write("escreva masculino ou feminino")
+    }
+}
+
+
+
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+</body>
+</html>
