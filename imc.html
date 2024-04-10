@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script>
+
+
+$peso = prompt("digite seu peso em KG")
+$altura = prompt("digite sua altura em METROS")
+    
+$imc = $peso / ($altura * $altura);
+
+
+if($imc < 18.5){
+
+    document.write("<center><img src='img/0.jpg'> </img></center>")
+    document.write("<br>")
+    document.write("<center>Abaixo do Peso</center>")
+    document.write("<br><center><a href='.'>Reiniciar</a></center>")
+}
+
+if($imc > 18.5 && $imc <25){
+
+document.write("<center><img src='img/1.jpg'> </img></center>")
+document.write("<br>")
+document.write("<center>Peso Normal</center>")
+document.write("<br><center><a href='.'>Reiniciar</a></center>")
+}
+
+if($imc > 24.9 && $imc <31){
+
+document.write("<center><img src='img/2.jpg'> </img></center>")
+document.write("<br>")
+document.write("<center>Sobrepeso</center>") 
+document.write("<br><center><a href='.'>Reiniciar</a></center>")
+}
+
+if($imc > 30){
+
+document.write("<center><img src='img/3.jpg'> </img></center>")
+document.write("<br>")
+document.write("<center>Obesidade</center>")
+document.write("<br><center><a href='.'>Reiniciar</a></center>")
+}
+
+
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULO IMC</title>
+</head>
+<body>
+    
+</body>
+</html>
